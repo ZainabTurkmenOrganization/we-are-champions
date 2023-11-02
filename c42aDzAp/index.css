@@ -1,0 +1,74 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #1b1924;
+  user-select: none;
+}
+
+#Home {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  margin: 30px auto;
+}
+
+#img-b {
+  width: 150px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+}
+#input-btn {
+  background: #444059;
+  width: 340px;
+  height: 120px;
+  border: 1px solid #444059;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#button-btn {
+  background-color: #28a9f1;
+  color: #04131c;
+  padding: 20px;
+  margin-top: 10px;
+  border: 1px solid #28a9f1;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+h2 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+ul li {
+    font-size: 20px;
+    background: #FFFDF8;
+    padding: 10px;
+    border-radius: 10px;
+    flex-grow: 1;
+    color: black;
+    text-align: center;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);    
+    
+}
+
+#message-list {
+    color: white;
+}
